@@ -1,47 +1,94 @@
 <!DOCTYPE html>
 <html lang="sv">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tv-Series</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-  </head>
-
-  <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="movies.html">Movies</a></li>
-          <li><a href="series.html">Series</a></li>
-          <li><a href="music.html">Music</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <main>
-      <p>Series 1</p>
-      <p>Utgivningsår:</p>
-      <p>Skådespelare:</p>
-      <p>IMDB-länk:</p>
-      <p>Genre:</p>
-
-      <p>Series 2</p>
-      <p>Utgivningsår:</p>
-      <p>Skådespelare:</p>
-      <p>IMDB-länk:</p>
-      <p>Genre:</p>
-
-      <p>Series 3</p>
-      <p>Utgivningsår:</p>
-      <p>Skådespelare:</p>
-      <p>IMDB-länk:</p>
-      <p>Genre:</p>
-    </main>
-    <footer>
-      <p>© 2026</p>
-    </footer>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmer - Mina Favoriter</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+   
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+      <img src="https://i.pinimg.com/736x/ee/df/b1/eedfb12a6050684de36b4e455690702f.jpg" width="150" height="150" postion="abslout"> 
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Mina Favoriter</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Hem</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="movies.html">Filmer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="series.html">Serier</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="music.html">Musik</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+ 
+    <div class="container mt-5">
+        <h1 class="text-center mb-4"> Mina Favoritfilmer</h1>
+       
+ 
+       
+        <div class="row">
+           
+            <div class="col">
+                <div class="card h-100">
+                    <img src="https://akns-images.eonline.com/eol_images/Entire_Site/2015127/rs_634x939-150227131719-634-game-of-thrones.ls.22715.jpg?fit=around%7C634:939&output-quality=90&crop=634:939;center,top" class="card-img-top img-fluid" alt="Dune">  
+                    <div class="card-body">
+                        <h5 class="card-title">Game of Thrones</h5>
+                        <p class="card-text">Insest</p>
+                       
+                    </div>
+                    <div class="card-footer">
+                        <a href="https://www.imdb.com/title/tt0944947/" target="_blank" class="btn btn-danger w-100">Visa på IMDB</a>
+                    </div>
+                </div>
+            </div>
+ 
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="https://www.gbpostersmerch.com/cdn/shop/files/kgodmpmicjv.jpg?v=1743589239&width=1000">
+                    <div class="card-body">
+                        <h5 class="card-title">Attack on Titan</h5>
+                        <p class="card-text">En av dem bästa fiction oat</p>
+                       
+                    </div>
+                    <div class="card-footer">
+                        <a href="https://www.imdb.com/title/tt0112471/" class="btn btn-danger w-100">Visa på IMDB</a>
+                    </div>
+                </div>
+            </div>
+ 
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZWI2NzZhMTItOTM3OS00NjcyLThmN2EtZGZjMjlhYWMwODMzXkEyXkFqcGc@._V1_.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title">Tokyo Ghoul</h5>
+                        <p class="card-text"> Chill anime </p>
+                          
+                    </div>
+                    <div class="card-footer">
+                        <a href="https://www.imdb.com/title/tt7236034/" target="_blank" class="btn btn-danger w-100">Visa på IMDB</a>
+                    </div>
+                </div>
+            </div>
+ 
+        </div>
+    </div>
+ 
+    <footer class="bg- text-white text-center ">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="init.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-  </body>
+</body>
 </html>
